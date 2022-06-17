@@ -17,6 +17,6 @@ WORKDIR $INSTALL_PATH
 
 COPY Gemfile ./
 
-ENV BUNDLE_PATH /box
+ENV BUNDLE_PATH /gems
 
 COPY . .
