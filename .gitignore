@@ -1,27 +1,23 @@
-/back_end/.bundle
+/.bundle
 
-/back_end/tmp/*
+# Ignore all logfiles and tempfiles.
 
 /back_end/log/*
-
-/back_end/!/log/.keep
-
-/back_end/!/tmp/.keep
-
+/back_end/tmp/*
 /back_end/tmp/pids/*
+!/back_end/tmp/pids/
+!/back_end/log/.keep
+!/back_end/tmp/.keep
 
-/back_end/!/tmp/pids/
-
-/back_end/!/tmp/pids/.keep
-
+# Ignore uploaded files in development
 /back_end/storage/*
+!/back_end/storage/.keep
 
-/back_end/!/storage/.keep
+/back_end/byebug_history
 
-/back_end/.byebug_history
-
+# Ignore master key for decrypting credentials and more.
 /back_end/config/master.key
 
-/back_end/.idea
+!/back_end/tmp/pids/.keep
 
-/back_end/.vscode
+/back_end/config/master.key
